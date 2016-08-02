@@ -8,6 +8,9 @@ public class AppTest {
 
 	@Test
 	public void test() {
+		App app = new App();
+		String value= app.Sample();
+		assertEquals("Welcome !!",value);
 		//fail("Not yet implemented");
 	}
 
